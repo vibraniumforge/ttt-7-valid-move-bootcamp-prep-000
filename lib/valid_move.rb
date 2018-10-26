@@ -16,7 +16,7 @@ def position_taken?(board, index)
   elsif board[index]=="X"
     return false
 
-  else 
-    return false
+  else
+    return nil
 end
 end
