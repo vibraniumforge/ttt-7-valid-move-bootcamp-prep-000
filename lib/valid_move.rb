@@ -3,8 +3,8 @@
 def valid_move?(board, index)
 if position_taken?(board, index)==true && index>=0 && index<=8
   return true
-elsif position_taken?(board, index)==false
-  return false
+# elsif position_taken?(board, index)==false
+#   return false
 else
   return false
 end
